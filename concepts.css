@@ -1,0 +1,110 @@
+/* Alternate art directions. Shared interactions live in script.js. */
+.concept-eyebrow, .concept-index, .project-meta, .concept-footer {
+  font-size: clamp(10px, .8vw, 15px);
+  letter-spacing: .025em;
+  line-height: 1.5;
+}
+.concept-eyebrow { margin: 0; text-transform: uppercase; }
+.concept-footer { display: flex; align-items: center; justify-content: space-between; }
+.concept-footer a { text-decoration: none; }
+.concept-footer a:hover { text-decoration: underline; text-underline-offset: 4px; }
+.concept-2, .concept-3 { --gutter: clamp(18px, 2vw, 38px); --section-gap: clamp(18px, 3svh, 32px); }
+.concept-2 .header, .concept-3 .header { padding-left: 0; background: transparent; border-bottom: 1px solid; padding-bottom: 12px; flex-basis: calc(var(--header-height) + 12px); }
+.concept-2 .hero, .concept-3 .hero { --hero-height: calc(100svh - var(--gutter) * 2 - var(--header-height) - 12px - var(--section-gap)); }
+.concept-2 .order, .concept-3 .order { padding-inline: clamp(16px, 1.4vw, 28px); }
+
+/* 02 — nocturnal poster / acid accents / oversized words. */
+.concept-2 { background: #191c18; color: #f3f2e9; }
+.concept-2 .header { border-color: #ffffff35; }
+.concept-2 .hero { display: grid; grid-template-columns: 54% 46%; }
+.concept-2 .concept-eyebrow { position: absolute; left: 0; top: 0; display: flex; gap: 12px; align-items: center; color: #d9e1d0; }
+.status-dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: #d3f879; }
+.concept-2 .headline { top: 12%; bottom: auto; max-width: 54%; font-size: min(7.6vw, calc(var(--hero-height) * .18)); line-height: 1.04; letter-spacing: -.075em; font-weight: 600; }
+.concept-2 .headline-intro { display: block; font-size: .25em; font-weight: 400; letter-spacing: -.025em; margin-bottom: .55em; }
+.concept-2 .first-line { display: flex; }
+.concept-2 .word-badge { max-width: 100%; color: #191c18; padding-inline: .12em; transform: rotate(-3deg); height: 1.12em; background: #d3f879; }
+.concept-2 .changing-word { line-height: 1.12; }
+.concept-2 .changing-word.is-leaving { left: .12em; }
+.concept-2 .headline-last { margin-top: .08em; }
+.concept-2 .intro-note { position: absolute; top: 60%; left: 0; font-size: clamp(14px, 1.25vw, 24px); line-height: 1.45; letter-spacing: -.04em; margin: 0; color: #bdc3b5; }
+.concept-2 .hero-cta { position: absolute; bottom: 15%; left: 0; display: flex; align-items: center; gap: 20px; text-decoration: none; font-size: clamp(15px, 1.2vw, 23px); }
+.cta-arrow { width: min(5.2vw, 8svh); aspect-ratio: 1; display: grid; place-items: center; background: #d3f879; color: #191c18; border-radius: 50%; font-size: 1.8em; transition: transform .4s var(--ease); }
+.hero-cta:hover .cta-arrow { transform: rotate(45deg); }
+.concept-2 .project { top: 0; right: 0; width: 43%; height: 86%; aspect-ratio: auto; }
+.concept-2 .project-image { object-position: 48% 50%; }
+.concept-2 .project-label { background: #d3f879; font-size: clamp(10px, .75vw, 14px); padding: 8px 12px; }
+.concept-2 .project-bottom { flex-direction: column; gap: 12px; }
+.concept-2 .project-title { font-size: clamp(24px, 3vw, 58px); }
+.concept-2 .project-meta { position: absolute; top: 88%; right: 0; width: 43%; display: flex; justify-content: space-between; color: #bdc3b5; }
+.concept-2 .signature { position: absolute; left: 38%; bottom: 13%; margin: 0; transform: rotate(12deg); }
+.concept-2 .signature .mascot { width: min(10vw, 17svh); height: auto; }
+.concept-2 .concept-footer { position: absolute; bottom: 0; left: 0; right: 0; border-top: 1px solid #ffffff35; padding-top: 12px; color: #bdc3b5; }
+.concept-2 .detail-dialog { color: #191c18; background: #f3f2e9; }
+
+/* 03 — warm editorial / open grid / lavender studio stamp. */
+.concept-3 { background: #f4f1e9; color: #20231e; }
+.concept-3 .header { color: #20231e; border-color: #20231e; }
+.concept-3 .order { color: #fff; }
+.concept-3 .hero { display: block; }
+.concept-3 .editorial-topline { display: flex; justify-content: space-between; align-items: center; }
+.concept-3 .concept-eyebrow { letter-spacing: .075em; }
+.concept-3 .headline { top: 7%; bottom: auto; width: 100%; font-size: min(6.6vw, calc(var(--hero-height) * .17)); line-height: 1.08; letter-spacing: -.06em; }
+.concept-3 .first-line { justify-content: center; gap: .22em; }
+.concept-3 .word-badge { padding-inline: .12em; height: 1.12em; transform: rotate(-2deg); }
+.concept-3 .changing-word { line-height: 1.12; }
+.concept-3 .changing-word.is-leaving { left: .12em; }
+.concept-3 .headline-last { text-align: center; margin-top: .03em; }
+.concept-3 .editorial-dash { font-weight: 400; }
+.concept-3 .project { left: 0; right: auto; top: 43%; bottom: 7%; width: 62%; height: auto; aspect-ratio: auto; }
+.concept-3 .project-image { object-position: center 48%; }
+.concept-3 .project-label { top: 16px; left: 16px; padding: 7px 11px; font-size: clamp(10px, .75vw, 14px); }
+.concept-3 .project-title { font-size: clamp(24px, 2.7vw, 52px); }
+.concept-3 .studio-note { position: absolute; top: 43%; bottom: 7%; right: 0; width: 33%; border-top: 1px solid #20231e; display: flex; flex-direction: column; justify-content: space-between; padding-top: clamp(12px, 2svh, 24px); }
+.concept-3 .studio-note p { margin: 0; max-width: 22em; font-size: clamp(13px, 1.15vw, 22px); line-height: 1.45; letter-spacing: -.035em; }
+.concept-3 .studio-bottom { display: flex; justify-content: space-between; align-items: flex-end; }
+.concept-3 .signature { width: min(12vw, 20svh); height: min(12vw, 20svh); margin: 0; background: #ded5ef; border-radius: 50%; display: grid; place-items: center; transform: rotate(-8deg); }
+.concept-3 .signature .mascot { width: 78%; height: auto; }
+.concept-3 .hero-cta { display: flex; flex-direction: column; gap: 14px; text-decoration: none; font-size: clamp(12px, 1vw, 19px); letter-spacing: -.04em; }
+.concept-3 .hero-cta span:first-child { font-size: clamp(32px, 4vw, 70px); line-height: 1; transition: transform .4s var(--ease); }
+.concept-3 .hero-cta:hover span:first-child { transform: translate(5px, -5px); }
+.concept-3 .concept-footer { position: absolute; bottom: 0; left: 0; right: 0; border-top: 1px solid #20231e; padding-top: 10px; }
+.concept-3 .menu-toggle span { background: #20231e; }
+
+@media (min-width: 701px) and (max-height: 600px) {
+  .concept-2 .intro-note { top: 60%; font-size: 13px; }
+  .concept-2 .hero-cta { bottom: 12%; font-size: 14px; }
+  .concept-2 .signature { bottom: 14%; }
+  .concept-2 .project { height: 82%; }
+  .concept-2 .project-meta { top: 84%; }
+  .concept-2 .concept-footer, .concept-3 .concept-footer { font-size: 10px; padding-top: 6px; }
+  .concept-3 .studio-note p { font-size: 12px; }
+  .concept-3 .signature { width: 15svh; height: 15svh; }
+}
+@media (max-width: 700px) {
+  .concept-2, .concept-3 { padding: 16px; }
+  .concept-2 .header, .concept-3 .header { padding-left: 0; padding-bottom: 10px; flex-basis: 66px; }
+  .concept-2 .logo img, .concept-3 .logo img { width: 104px; }
+  .concept-2 .order, .concept-3 .order { padding-inline: 10px; }
+  .concept-2 .hero, .concept-3 .hero { display: flex; gap: 0; margin-top: 24px; padding: 0; }
+  .concept-2 .concept-eyebrow { position: static; font-size: 10px; }
+  .concept-2 .headline { position: static; max-width: 100%; font-size: 16vw; margin-top: 38px; }
+  .concept-2 .intro-note { position: static; margin-top: 24px; font-size: 16px; }
+  .concept-2 .hero-cta { position: static; margin-top: 26px; gap: 14px; font-size: 16px; }
+  .cta-arrow { width: 48px; }
+  .concept-2 .signature { bottom: auto; top: 300px; left: auto; right: 8px; }
+  .concept-2 .signature .mascot { width: 75px; }
+  .concept-2 .project { position: relative; width: 100%; height: 380px; margin-top: 40px; }
+  .concept-2 .project-title { font-size: 30px; }
+  .concept-2 .project-meta { position: static; width: 100%; margin-top: 12px; font-size: 10px; }
+  .concept-2 .concept-footer, .concept-3 .concept-footer { position: static; margin-top: 30px; padding-top: 14px; padding-bottom: 4px; font-size: 10px; }
+  .concept-3 .editorial-topline { font-size: 10px; }
+  .concept-3 .concept-eyebrow { font-size: 9px; }
+  .concept-3 .headline { position: static; font-size: 8.8vw; margin: 34px 0; }
+  .concept-3 .first-line { gap: .16em; }
+  .concept-3 .headline-last { margin-top: .15em; }
+  .concept-3 .project { position: relative; top: auto; bottom: auto; width: 100%; height: 260px; }
+  .concept-3 .studio-note { position: static; width: 100%; margin-top: 24px; padding-top: 20px; gap: 24px; }
+  .concept-3 .studio-note p { font-size: 17px; }
+  .concept-3 .signature { width: 120px; height: 120px; }
+  .concept-3 .hero-cta { font-size: 16px; }
+}
