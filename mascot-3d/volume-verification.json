@@ -1,0 +1,114 @@
+{
+  "errors": [],
+  "meshes": [
+    {
+      "name": "Head — reference facets",
+      "map": true,
+      "mapSize": [
+        382,
+        311
+      ],
+      "materialType": "MeshBasicMaterial"
+    },
+    {
+      "name": "Head — continuous sculpted back",
+      "map": true,
+      "mapSize": [
+        1024,
+        427
+      ],
+      "materialType": "MeshBasicMaterial"
+    },
+    {
+      "name": "Near ear — reference facets",
+      "map": true,
+      "mapSize": [
+        382,
+        311
+      ],
+      "materialType": "MeshBasicMaterial"
+    },
+    {
+      "name": "Near ear — continuous sculpted back",
+      "map": true,
+      "mapSize": [
+        1024,
+        66
+      ],
+      "materialType": "MeshBasicMaterial"
+    },
+    {
+      "name": "Upper ear — reference facets",
+      "map": true,
+      "mapSize": [
+        382,
+        311
+      ],
+      "materialType": "MeshBasicMaterial"
+    },
+    {
+      "name": "Upper ear — continuous sculpted back",
+      "map": true,
+      "mapSize": [
+        1024,
+        66
+      ],
+      "materialType": "MeshBasicMaterial"
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Head",
+      "triangleCounts": [
+        42,
+        32
+      ],
+      "areas": [
+        12.371939836138647,
+        12.523573857121576
+      ],
+      "densityRatio": 0.7526797049065183,
+      "nonManifoldEdges": 0
+    },
+    {
+      "name": "Near ear",
+      "triangleCounts": [
+        4,
+        4
+      ],
+      "areas": [
+        0.5467736585724803,
+        0.6052248716069932
+      ],
+      "densityRatio": 0.9034223215590707,
+      "nonManifoldEdges": 0
+    },
+    {
+      "name": "Upper ear",
+      "triangleCounts": [
+        4,
+        4
+      ],
+      "areas": [
+        0.4560973229775435,
+        0.6019290039073233
+      ],
+      "densityRatio": 0.7577261105825814,
+      "nonManifoldEdges": 0
+    }
+  ],
+  "rearMaxInwardFold": 5.551115123125783e-17,
+  "texelsPerUnit": {
+    "min": 99.99996211186,
+    "max": 100.00003658811802
+  },
+  "assertions": {
+    "noErrors": true,
+    "convexRear": true,
+    "unstretchedRearUV": true,
+    "closedParts": true,
+    "consistentHeadDensity": true,
+    "allTextured": true,
+    "sameShadingModel": true
+  }
+}

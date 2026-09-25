@@ -1,0 +1,113 @@
+{
+  "errors": [],
+  "initial": {
+    "pupils": [
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "triangles": 90,
+    "geometries": 6,
+    "textures": 8,
+    "depth": 2.574703812599182,
+    "canvasCount": 1,
+    "visibleText": "",
+    "controls": 0,
+    "yaw": 0
+  },
+  "left": {
+    "pupils": [
+      {
+        "x": -14.296577140339265,
+        "y": 9.184143131684355
+      },
+      {
+        "x": -11.664924919720303,
+        "y": 8.202192208681577
+      }
+    ],
+    "triangles": 90,
+    "geometries": 6,
+    "textures": 8,
+    "depth": 2.574703812599182,
+    "canvasCount": 1,
+    "visibleText": "",
+    "controls": 0,
+    "yaw": 0
+  },
+  "right": {
+    "pupils": [
+      {
+        "x": 14.315775578304953,
+        "y": -7.8849505748204685
+      },
+      {
+        "x": 7.279934296804915,
+        "y": -7.243521093403052
+      }
+    ],
+    "triangles": 90,
+    "geometries": 6,
+    "textures": 8,
+    "depth": 2.574703812599182,
+    "canvasCount": 1,
+    "visibleText": "",
+    "controls": 0,
+    "yaw": 0
+  },
+  "back": {
+    "pupils": [
+      {
+        "x": -12.102502998566392,
+        "y": 2.5647645687746836
+      },
+      {
+        "x": -11.253498728376897,
+        "y": 1.9205120501145638
+      }
+    ],
+    "triangles": 90,
+    "geometries": 6,
+    "textures": 8,
+    "depth": 2.574703812599182,
+    "canvasCount": 1,
+    "visibleText": "",
+    "controls": 0,
+    "yaw": 3.1410875262841915
+  },
+  "reset": {
+    "pupils": [
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "triangles": 90,
+    "geometries": 6,
+    "textures": 8,
+    "depth": 2.574703812599182,
+    "canvasCount": 1,
+    "visibleText": "",
+    "controls": 0,
+    "yaw": 0.00017084594090405948
+  },
+  "assertions": {
+    "noErrors": true,
+    "onlyCanvas": true,
+    "volumetricMesh": true,
+    "gazeTracksX": true,
+    "gazeTracksY": true,
+    "noResourceLeak": true,
+    "rotates": true,
+    "referenceResets": true
+  }
+}

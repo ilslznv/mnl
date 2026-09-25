@@ -1,0 +1,17 @@
+{
+  "previousFrontMeanRGBError": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "previousFrontMaxRGBError": [
+    0,
+    0,
+    0
+  ],
+  "referenceMeanRGBError": [
+    0.4418949175939799,
+    0.18799346812343226,
+    0.11499806400565647
+  ]
+}
